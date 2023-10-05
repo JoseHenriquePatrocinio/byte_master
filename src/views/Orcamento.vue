@@ -1,6 +1,15 @@
 <template>
   <div class="container-div">
-    <h1>Tela cadastro Orçamentos</h1>
+    <FormOrcamento></FormOrcamento>
   </div>
 </template>
 
+<script>
+import FormOrcamento from '@/components/FormOrcamento.vue';
+export default {
+  name: "Orcamento",
+  components: {
+    FormOrcamento
+  }
+}
+</script>
