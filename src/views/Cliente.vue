@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-div">
     <FormCliente></FormCliente>
   </div>
 </template>
@@ -15,9 +15,6 @@ export default {
 }
 </script>
 
-<style>
-.container {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+<style scoped>
+
 </style>
