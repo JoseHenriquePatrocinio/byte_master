@@ -35,6 +35,27 @@
             </form>
         </div>
 
+        <table class="item-table">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Marca</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Disco Rígido</td>
+                    <td>HyperCore</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Unidade de Estado Sólido</td>
+                    <td>QuantumStorage</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </template>
 
@@ -45,7 +66,6 @@ export default {
 </script>
 
 <style scoped>
-
 .container {
     max-width: 400px;
     margin: 0 auto;
@@ -79,5 +99,28 @@ button[type="submit"] {
     border: none;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.item-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.item-table th,
+.item-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.item-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.item-table tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 </style>
