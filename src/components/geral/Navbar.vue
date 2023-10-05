@@ -6,6 +6,7 @@
       <router-link to="/">Inicio</router-link> 
       <router-link to="/cliente">Clientes</router-link>
       <router-link to="/orcamento">Orcamentos</router-link>
+      <router-link to="/servico">Ordens de Serviço</router-link>
       <router-link to="/produto">Produtos</router-link>
       <router-link to="/relatorio">Relatórios</router-link>
       <router-link to="/usuario">Usuários</router-link>
