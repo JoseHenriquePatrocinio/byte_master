@@ -1,5 +1,15 @@
 <template>
-    <div class="container-div">
-      <h1>Tela Geração Relatórios</h1>
-    </div>
-  </template>
+  <div class="container-div">
+    <GerarRelatorio></GerarRelatorio>
+  </div>
+</template>
+
+<script>
+import GerarRelatorio from '@/components/GerarRelatorio.vue';
+export default {
+  name: "Relatorio",
+  components: {
+    GerarRelatorio
+  }
+}
+</script>
