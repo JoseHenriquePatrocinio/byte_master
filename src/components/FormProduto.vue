@@ -2,7 +2,7 @@
     <div>
 
         <div class="container">
-            <h1>Cadastro de Produto</h1>
+            <h1>Consulta Produto</h1>
             <form action="#">
                 <div class="form-group">
                     <label for="produto">Produto:</label>
@@ -26,12 +26,7 @@
                     </select>
                 </div>
 
-                <div class="form-group">
-                    <label for="quantidade">Quantidade:</label>
-                    <input type="number" id="quantidade" name="quantidade" min="1">
-                </div>
-
-                <button type="submit">Cadastrar</button>
+                <button type="submit">Consultar</button>
             </form>
         </div>
 
@@ -84,8 +79,7 @@ label {
     font-weight: bold;
 }
 
-select,
-input[type="number"] {
+select{
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
