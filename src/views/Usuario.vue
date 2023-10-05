@@ -1,5 +1,15 @@
 <template>
-    <div class="container-div">
-      <h1>Tela cadastro Usuários</h1>
-    </div>
-  </template>
+  <div class="container-div">
+    <FormUsuario></FormUsuario>
+  </div>
+</template>
+
+<script>
+import FormUsuario from '@/components/FormUsuario.vue';
+export default {
+  name: "Usuario",
+  components: {
+    FormUsuario
+  }
+}
+</script>
