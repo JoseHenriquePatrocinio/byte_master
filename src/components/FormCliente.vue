@@ -32,9 +32,6 @@ export default {
 </script>
 
 <style scoped>
-body {
-    font-family: Arial, sans-serif;
-}
 
 .container {
     width: 50%;
